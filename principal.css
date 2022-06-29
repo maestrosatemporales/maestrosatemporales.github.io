@@ -1,0 +1,114 @@
+/* Aplicando estilos a elementos HTML */
+
+body
+
+    {
+    background-color: rgb(176, 228, 155);
+    }
+
+h1
+
+    {
+        text-align: center;
+    }
+
+h2
+
+    {
+        text-align: center;
+    }
+
+/* Aplicando estilos a capas */
+
+#general
+    {
+        margin: 0px auto;
+        background-color: rgb(217, 226, 138);
+        width: 1000px; height: 880px;
+    }
+
+#cabecera 
+    {
+        background-color: rgb(94, 44, 28);
+        margin-top:15px; margin-left: 20px;
+        width: 95%;
+        float: left;
+        border-radius: 30px;
+    }
+
+#titulares 
+    {
+        background-color: rgb(180, 117, 96);
+        margin-top:15px; margin-left: 20px;
+        width: 95%;
+        float: left;
+        border-radius: 30px;
+    }
+
+#datos 
+    {
+        background-color: rgb(231, 168, 147);
+        margin-top:15px; margin-left: 20px;
+        width: 95%;
+        float: left;
+        border-radius: 30px;
+    }
+
+#alumnos 
+    {
+        background-color: rgb(173, 143, 133);
+        margin-top:15px; margin-left: 20px;
+        width: 95%;
+        float: left;
+        border-radius: 30px;
+    }
+
+#alumnos table
+    {
+        background-color: rgb(211, 221, 74);
+        border-style: double; border-width: 3px; border-color: #b628b8; border-radius: 30px;
+        margin:10px auto; padding: 15px;
+        width: 95%;
+    }    
+
+    #alumnos table td
+    {
+        border-style: solid; border-width: 1px; border-color: #cc5bce;border-radius: 5px;
+        height: 30px; padding-left: 10px;
+    }    
+
+    /* Aplicando estilos a clases */
+
+.DText {
+        font-family:Garamond, serif;
+        line-height:1em;
+        color:#fff9d6;
+        font-weight:bold;
+        font-size:35px;
+        text-shadow:0px 0px 0 rgb(218, 218, 218),1px 1px 0 rgb(192,192,192),2px 2px 0 rgb(165,165,165),3px 3px 0 rgb(138,138,138), 4px 4px 0 rgb(111,111,111),5px 5px 4px rgba(0,0,0,0.8),5px 5px 1px rgba(0,0,0,0.5),0px 0px 4px rgba(0,0,0,.2);}
+
+        .css-3d-text {
+            font-size: 29px;
+            color: #b628b8;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-shadow: 0px 0px 0 rgb(158,16,160),
+                         -1px 1px 0 rgb(133,-9,135),
+                         -2px 2px  0 rgb(109,-33,111),
+                         -3px 3px 2px rgba(0,0,0,0.71),
+                         -3px 3px 1px rgba(0,0,0,0.5),
+                         0px 0px 2px rgba(0,0,0,.2);
+         }
+
+.demoFont {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 1.4px;
+    color: #103D02;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 10px;
+            }
